@@ -31,8 +31,8 @@ Download the [Frogress.svelte](/Frogress.svelte) file and use it like this:
 
 ```html
 <script>
-	import Frogress from "./Frogress.svelte"
-	let value = 50;
+    import Frogress from "./Frogress.svelte"
+    let value = 50;
     let random = () => Math.floor(Math.random()*100)
     let update = () => value = random()
 </script>
